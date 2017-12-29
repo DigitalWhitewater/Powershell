@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>mixxx</id>
+    <version>2.0.0.20161110</version>
+    <title>Mixxx</title>
+    <owners>chocolatey</owners>
+    <authors>Mixxx Development Team</authors>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>http://mixxx.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/edba4a5849ff756e767cba86641bea97ff5721fe/icons/mixxx.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+Mixxx is free DJ software for Windows, Mac OS X and Linux. It’s easy to use so you can start mixing your favorite songs in no time, even if you’ve never DJed before. Mixxx offers a variety of features for experienced DJs and beginners alike, such as automatic beat and key detection, master sync, hotcues, looping, 4 decks, effects and many more. You can perform with Mixxx using MIDI and HID controllers, CD players, vinyl turntables or even just your computer’s keyboard and mouse.
+    </description>
+    <summary>Cross platform and open Source DJ software</summary>
+    <releaseNotes>http://mixxxblog.blogspot.it/</releaseNotes>
+    <copyright />
+    <tags>DJ audio mixing party mp3 media admin</tags>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/mixxx</packageSourceUrl>
+    <projectSourceUrl>https://github.com/mixxxdj/mixxx</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.launchpad.net/mixxx</bugTrackerUrl>
+    <docsUrl>http://www.mixxx.org/manual/latest/</docsUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,2 @@
+threadsafe|http://windows.php.net/downloads/releases/php-7.2.0-Win32-VC15-x86.zip|http://windows.php.net/downloads/releases/php-7.2.0-Win32-VC15-x64.zip|28bd43ba9148549f8b70b28ae33415b3103e3b3cbaabcd4619fdac47a1739f7f|275c58e86e0490146684e4f731917484306a3f269dc6f6f55f31aabb808743d0
+not-threadsafe|http://windows.php.net/downloads/releases/php-7.2.0-nts-Win32-VC15-x86.zip|http://windows.php.net/downloads/releases/php-7.2.0-nts-Win32-VC15-x64.zip|f5c1317e557ec814377a18af3ad325a59da8a9d127660ab1a03562b14824f686|85a325601d0442dcefbd02fd859f3c6cc1580349857c2d21c8be58cd1e4d8f23

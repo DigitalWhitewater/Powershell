@@ -1,0 +1,21 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The embedded software have been downloaded from the listed download
+location on <https://cygwin.com/>
+and can be verified by doing the following:
+
+1. Download the following:
+  32-Bit software: <https://cygwin.com/setup-x86.exe>
+  64-Bit software: <https://cygwin.com/setup-x86_64.exe>
+2. Get the checksum using one of the following methods:
+  - Using powershell function 'Get-FileHash'
+  - Use chocolatey utility 'checksum.exe'
+3. The checksums should match the following:
+
+  checksum type: sha256
+  checksum32: 10B368DC6D6CC6ED662ECB2822445DDEAC7939D6BC80D152EEE6CC6301A444CF
+  checksum64: 062AB45437FED70071DD4CF1C9D6C584F3EFBB3D64D60E4CFC4E74FD6B6DE214
+
+The file 'LICENSE.txt' has been obtained from <https://cygwin.com/COPYING>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ccleaner</id>
+    <title>CCleaner</title>
+    <version>5.38.6357.20171217</version>
+    <authors>Piriform</authors>
+    <owners>maartenba, tonigellida</owners>
+    <summary>
+  The number-one tool for cleaning your Windows PC.
+  </summary>
+    <description><![CDATA[
+The number-one tool for cleaning your Windows PC.
+
+It protects your privacy online and makes your computer faster and more secure.
+
+### Notes
+
+This package installs CCleaner without additional adware.
+
+]]></description>
+    <projectUrl>https://www.piriform.com/ccleaner</projectUrl>
+    <tags>ccleaner system cleanup freeware trial registry admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://www.piriform.com/legal/software-license/ccleaner</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/182294b9b95166915fdc2265a90ef37c6b24efd9/icons/ccleaner.png</iconUrl>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/ccleaner</packageSourceUrl>
+    <releaseNotes>https://www.piriform.com/ccleaner/version-history</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mp3tag</id>
+    <version>2.85</version>
+    <title>Mp3tag</title>
+    <owners>chocolatey</owners>
+    <authors>Florian Heidenreich</authors>
+    <licenseUrl>http://help.mp3tag.de/misc_license.html</licenseUrl>
+    <projectUrl>http://www.mp3tag.de/en/index.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/479c139f9c3358eac716a36ce8a60e7f1f95d806/icons/mp3tag.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[
+Mp3tag is a powerful and yet easy-to-use tool to edit metadata of common audio formats where it supports ID3v1, ID3v2.3, ID3v2.4, iTunes MP4, WMA, Vorbis Comments and APE Tags.
+
+]]></description>
+    <summary>Mp3tag is a powerful and yet easy-to-use tool to edit metadata of common audio formats.</summary>
+    <tags>mp3 tag admin</tags>
+    <releaseNotes></releaseNotes>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/mp3tag</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

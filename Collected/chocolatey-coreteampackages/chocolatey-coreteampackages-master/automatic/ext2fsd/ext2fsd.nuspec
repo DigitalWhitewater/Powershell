@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ext2fsd</id>
+    <version>0.69.0.20171118</version>
+    <title>Ext2Fsd</title>
+    <owners>chocolatey</owners>
+    <authors>Matt</authors>
+    <licenseUrl>https://sourceforge.net/p/ext2fsd/code/ci/master/tree/Ext3Fsd/COPYRIGHT.TXT</licenseUrl>
+    <projectUrl>http://www.ext2fsd.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[
+Open source ext3/4 file system driver for Windows
+
+## Features
+
+- ext2/ext3 volume reading and writing
+- ext3 journal replay when mounting
+- various codepage: utf8, cp936, cp950
+- mountpoint automatical assignment
+- large inode size: 128, 256
+- large file size bigger than 4G
+- CIFS sharing over network
+- htree directory indexing
+- ext4 extent support
+- fast fsck (uninit_bg) and group block checksum support
+- up to 4G*blocksize volume: 16TB for 4K block
+- 64k block-size, support compatible to Linux ext4 and e2fsprogs
+- OS: 2k, xp, vista, server 2003/2008, win7
+
+## Notes
+
+- The uninstaller doesn't work silently.
+
+]]></description>
+    <summary>Open source ext3/4 file system driver for Windows</summary>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/8a5d2740db65d1750e4312294f4163e348cd5a45/icons/ext2fsd.jpg</iconUrl>
+    <releaseNotes>http://www.ext2fsd.com/?cat=3</releaseNotes>
+    <copyright />
+    <language>en-US</language>
+    <tags>ext3 ext4 file-system foss linux driver admin</tags>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/ext2fsd</packageSourceUrl>
+    <projectSourceUrl>https://sourceforge.net/p/ext2fsd/code/ci/master/tree/</projectSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

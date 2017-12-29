@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>winff</id>
+    <version>1.5.5</version>
+    <title>WinFF</title>
+    <owners>chocolatey</owners>
+    <authors>Matthew Weatherford,Ian Stoffberg</authors>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>http://winff.org/html_new/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/edba4a5849ff756e767cba86641bea97ff5721fe/icons/winff.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+WinFF is a GUI for the command line video converter, FFMPEG. It will convert most any video file that FFmpeg will convert. For example: you can convert your camera, phone, and internet videos into videos for multiple phones, websites, and media players.
+
+WinFF is free video converter for Win Xp to Win 10, Debian, and Ubuntu. WinFF has been used around the world to help people post their videos on the internet despite repressive regimes.
+
+![screenshot](screenshot.jpg)
+</description>
+    <summary>WinFF is a GUI for the command line video converter, FFMPEG.</summary>
+    <releaseNotes />
+    <copyright>2008–2013 WinFF.org</copyright>
+    <tags>converter encoder audio video ffmpeg admin foss cross-platform</tags>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/manual/winff</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>

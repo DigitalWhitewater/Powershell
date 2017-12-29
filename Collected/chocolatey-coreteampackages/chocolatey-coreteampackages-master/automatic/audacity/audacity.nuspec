@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>audacity</id>
+    <title>Audacity</title>
+    <owners>chocolatey</owners>
+    <version>2.2.1</version>
+    <authors>Audacity Developers</authors>
+    <summary>Audacity is free, open source, cross-platform software for recording and editing sounds.</summary>
+<description><![CDATA[
+Audacity is free, open source, cross-platform software for recording and editing sounds.
+
+## Features
+
+- Record live audio.
+- Convert tapes and records into digital recordings or CDs.
+- Edit Ogg Vorbis, MP3, WAV or AIFF sound files.
+- Cut, copy, splice or mix sounds together.
+- Change the speed or pitch of a recording.
+- Add new effects with LADSPA plug-ins.
+- And more! See [full list of features](http://www.audacityteam.org/about/features).
+
+
+]]></description>
+    <projectUrl>http://audacityteam.org/</projectUrl>
+    <tags>audacity admin audio dsp foss cross-platform</tags>
+    <copyright></copyright>
+    <licenseUrl>http://audacityteam.org/about/license#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/edba4a5849ff756e767cba86641bea97ff5721fe/icons/audacity.svg</iconUrl>
+    <releaseNotes></releaseNotes>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/audacity</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+    <docsUrl>http://www.audacityteam.org/help/documentation</docsUrl>
+    <projectSourceUrl>https://github.com/audacity/audacity</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

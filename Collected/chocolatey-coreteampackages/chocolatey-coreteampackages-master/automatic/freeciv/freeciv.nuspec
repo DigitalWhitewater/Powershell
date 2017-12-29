@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>freeciv</id>
+    <version>2.5.9</version>
+    <title>Freeciv</title>
+    <owners>chocolatey purity</owners>
+    <authors>Freeciv Contributors</authors>
+    <licenseUrl>https://github.com/freeciv/freeciv-web/blob/develop/LICENSE.txt</licenseUrl>
+    <projectUrl>http://www.freeciv.org/</projectUrl>
+    <docsUrl>http://www.freeciv.org/wiki/</docsUrl>
+    <bugTrackerUrl>http://gna.org/bugs/?group=freeciv</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/freeciv/freeciv-web</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/edba4a5849ff756e767cba86641bea97ff5721fe/icons/freeciv.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.
+The game commences in prehistory and your mission is to lead your tribe from the Stone Age to the Space Age.
+Your goal is to build cities, collect resources, organize your government,
+and build an army, with the ultimate goal of creating the best civilization.
+You can play online against other players (multiplayer) or play by yourself against the computer.
+    </description>
+    <summary>Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.</summary>
+    <releaseNotes>http://www.freeciv.org/wiki/NEWS-2.5.9</releaseNotes>
+    <copyright />
+    <tags>freeciv game strategy civilization admin</tags>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/freeciv</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

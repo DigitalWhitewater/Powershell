@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>bulk-crap-uninstaller</id>
+    <title>Bulk Crap Uninstaller</title>
+    <owners>chocolatey</owners>
+    <version>4.0</version>
+    <authors>Marcin Szeniak</authors>
+    <summary>Bulk Crap Uninstaller is an open source program uninstaller.</summary>
+    <description><![CDATA[Bulk Crap Uninstaller (or BCUninstaller) is a free (as in speech) program uninstaller. It excels at removing large amounts of applications with minimal user input. It can clean up leftovers, detect orphaned applications, run uninstallers according to premade lists, and much more! Even though BCU was made with IT pros in mind, by default it is so straight-forward that anyone can use it.
+
+BCU is fully compatible with Windows Store Apps, Steam, Windows Features and has special support for many uninstalling systems (NSIS, InnoSetup, Msiexec, and many other).
+
+## Features
+
+* Detect and quietly Windows Store apps
+* Detect and quietly uninstall Steam Apps
+* Uninstall multiple items at once to speed up the process (with collision prevention)
+* Uninstall any number of applications in a single batch
+* Minimal user input is required during uninstallation
+* Can find and remove leftovers after uninstallation
+* Can uninstall many applications even if they don't have any uninstallers
+* Detects applications with damaged or missing uninstallers
+* Adds quiet uninstall options to some uninstallers, even if they do not support them by default
+* Uninstall lists for automation
+* Startup manager
+* Verification of uninstaller certificates
+* Fully portable, settings are saved to a single file
+* Translated to French, Polish, Slovene, Czech, English, German, Russian. More coming!
+
+![screenshot](https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/458c2f70/automatic/bulk-crap-uninstaller/screenshot.png)
+]]></description>
+    <projectUrl>http://klocmansoftware.weebly.com/</projectUrl>
+    <tags>uninstaller uninstall bulk admin foss</tags>
+    <copyright>Marcin Szeniak 2017</copyright>
+    <licenseUrl>https://github.com/Klocman/Bulk-Crap-Uninstaller/blob/master/Licence.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/11b6ffab0e41ca0e687b1202046aa0248682e8be/icons/bulk-crap-uninstaller.png</iconUrl>
+    <releaseNotes>https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/tag/v4.0</releaseNotes>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/bulk-crap-uninstaller</packageSourceUrl>
+    <projectSourceUrl>https://github.com/Klocman/Bulk-Crap-Uninstaller</projectSourceUrl>
+    <dependencies>
+      <dependency id="dotnet3.5" version="3.5.20160716" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>reshack</id>
+        <title>Resource Hacker</title>
+        <version>4.5.30.20170526</version>
+        <authors>Angus Johnson</authors>
+        <owners>Redsandro</owners>
+        <summary>Resource Hacker is a freeware utility to view, modify, rename, add, delete and extract resources in 32bit and 64bit Windows executables and resource files.</summary>
+        <description>
+Resource Hacker is a freeware utility to view, modify, rename, add, delete and extract resources in 32bit and 64bit Windows executables and resource files (*.res). It incorporates an internal resource script compiler and decompiler and works on all (Win95 - Win7) Windows operating systems.
+
+Resource Hacker is a complete resource editing tool: compiling, viewing, decompiling and recompiling resources for both 32bit and 64bit Windows executables.
+
+## Notes
+
+- Only the latest version is available.
+</description>
+        <projectUrl>http://www.angusj.com/resourcehacker/</projectUrl>
+        <tags>freeware hacking resource executables admin</tags>
+        <copyright></copyright>
+        <licenseUrl>http://www.angusj.com/resourcehacker/</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/da1a06bf2e600442203ca66680b1d1539002b813/icons/reshack.png</iconUrl>
+        <dependencies></dependencies>
+        <releaseNotes></releaseNotes>
+        <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/reshack</packageSourceUrl>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>

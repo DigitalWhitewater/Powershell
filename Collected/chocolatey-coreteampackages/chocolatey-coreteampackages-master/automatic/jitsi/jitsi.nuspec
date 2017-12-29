@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>jitsi</id>
+    <version>2.10.5550</version>
+    <title>Jitsi</title>
+    <owners>chocolatey</owners>
+    <authors>Emil Ivov and others</authors>
+    <licenseUrl>https://www.gnu.org/licenses/lgpl-2.1.html</licenseUrl>
+    <projectUrl>https://jitsi.org/</projectUrl>
+    <projectSourceUrl>https://github.com/jitsi/jitsi</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/edba4a5849ff756e767cba86641bea97ff5721fe/icons/jitsi.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+Jitsi (formerly SIP Communicator) is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application for Windows, Linux and Mac OS X. It supports several popular instant messaging and telephony protocols, including open recognised encryption protocols for chat (OTR) and voice/video/streaming and voice/video conferencing (SIP/RTP/SRTP/ZRTP), as well as built-in IPv6, NAT traversal and DNSSEC. Jitsi and its source code are released under the terms of the LGPL.
+    </description>
+    <docsUrl>https://jitsi.org/Documentation/UserDocumentation</docsUrl>
+    <summary>Jitsi is an audio/video and chat communicator with many useful features.</summary>
+    <bugTrackerUrl>https://github.com/jitsi/jitsi/issues</bugTrackerUrl>
+    <releaseNotes>https://jitsi.org/Main/News</releaseNotes>
+    <copyright>2004–2012 Emil Ivov</copyright>
+    <tags>voip audio video messaging desktop-sharing video-call chat conferencing file-transfer softphone admin</tags>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/jitsi</packageSourceUrl>
+  </metadata>
+   <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

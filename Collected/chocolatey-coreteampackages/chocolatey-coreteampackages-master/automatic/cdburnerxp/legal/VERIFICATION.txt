@@ -1,0 +1,21 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The embedded software have been downloaded from the listed download
+location on <https://cdburnerxp.se/en/download>
+and can be verified by doing the following:
+
+1. Download the following:
+  32-Bit software: <https://download.cdburnerxp.se/msi/cdbxp_setup_4.5.8.6795.msi>
+  64-Bit software: <https://download.cdburnerxp.se/msi/cdbxp_setup_x64_4.5.8.6795.msi>
+2. Get the checksum using one of the following methods:
+  - Using powershell function 'Get-FileHash'
+  - Use chocolatey utility 'checksum.exe'
+3. The checksums should match the following:
+
+  checksum type: sha256
+  checksum32: FBF9772ECF2D2829F097D33013F5C3B9A01BA9F7C1345DC494A7D913AFDD2810
+  checksum64: 49002F2F802DDA8B8E86882601C78620FB0740878ADA46F5158BC95034FA3738
+
+The file 'LICENSE.txt' has been obtained from <https://cdburnerxp.se/help/intro/license>

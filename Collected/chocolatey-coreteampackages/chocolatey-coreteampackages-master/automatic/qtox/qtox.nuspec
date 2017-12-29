@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>qtox</id>
+    <title>qTox</title>
+    <version>1.13.0</version>
+    <authors>qTox developers</authors>
+    <owners>chocolatey</owners>
+    <summary>Powerful Tox chat client that follows the Tox design guidelines.</summary>
+    <description><![CDATA[
+qTox is a powerful [Tox](https://tox.chat/) client that follows the Tox design guidelines while running on all major platforms.
+
+## Features
+
+* One to one chat with friends
+* Group chats
+* File transfers, with previewing of images
+* Audio calls, including group calls
+* Video calls
+* Tox DNS and Tox URI support
+* Translations in 26 languages
+* Avatars
+* Faux offline messages
+* History
+* Screenshots
+* Emoticons
+* Auto-updates on Windows and Mac, packages on Linux
+* And many more options!
+
+]]></description>
+    <projectUrl>https://qtox.github.io</projectUrl>
+    <projectSourceUrl>https://github.com/qTox/qTox</projectSourceUrl>
+    <docsUrl>https://github.com/qTox/qTox/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/qTox/qTox/issues</bugTrackerUrl>
+    <mailingListUrl>https://lists.tox.chat/listinfo</mailingListUrl>
+    <tags>qtox tox chat voip foss cross-platform admin</tags>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/qtox</packageSourceUrl>
+    <copyright>qTox contributors</copyright>
+    <licenseUrl>https://github.com/qTox/qTox/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/d12c934ca6454cc6fe10e5a708c6a32e2f59c55e/icons/qtox.svg</iconUrl>
+    <releaseNotes>https://github.com/qTox/qTox/blob/master/CHANGELOG.md</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>everything</id>
+    <version>1.4.1877.20170915</version>
+    <title>Everything</title>
+    <authors>David Carpenter</authors>
+    <owners>chocolatey, Mark Michaelis</owners>
+    <licenseUrl>http://www.voidtools.com/License.txt</licenseUrl>
+    <projectUrl>http://www.voidtools.com</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/cf277846cf6b5436461ebd5f21b00efd67ee9910/icons/everything.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>"Everything" is an administrative tool that locates files and folders by filename instantly for Windows.
+Unlike Windows search "Everything" initially displays every file and folder on your computer (hence the name "Everything").
+You type in a search filter to limit what files and folders are displayed.
+
+## Features
+
+- Small installation file
+- Clean and simple user interface
+- Quick file indexing
+- Quick searching
+- Minimal resource usage
+- Share files with others easily
+- Real-time updating
+- [More ...](https://www.voidtools.com/faq/)
+
+## Package parameters
+
+- `/client-service`  - Install the "Everything" client as a service.
+- `/desktop-shortcut`- Install desktop shortcut.
+- `/efu-association` - Install EFU file association.
+- `/folder-context-menu` - Install folder context menus.
+- `/quick-launch-shortcut` - Install Quick Launch shortcut.
+- `/run-on-system-startup` - Install "Everything" in  the system startup.
+- `/service` - Install and start the "Everything" service.
+- `/start-menu-shortcuts` - Install "Everything" shortcuts from the Start menu.
+</description>
+    <summary>Everything Search Engine - locate files and folders by name instantly</summary>
+    <releaseNotes>https://www.voidtools.com/Changes.txt</releaseNotes>
+    <copyright>2016 David Carpenter</copyright>
+    <tags>everything file-system indexing freeware file search admin</tags>
+    <docsUrl>https://www.voidtools.com/faq/</docsUrl>
+    <mailingListUrl>https://www.voidtools.com/forum/</mailingListUrl>
+    <bugTrackerUrl>https://www.voidtools.com/forum/viewforum.php?f=6</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/everything</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>

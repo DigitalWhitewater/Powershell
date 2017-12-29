@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>vscode-icons</id>
+    <title>Visual Studio Code Icons Extension</title>
+    <version>1.0.0.20170116</version>
+    <authors>Roberto Huertas</authors>
+    <owners>chocolatey, gep13</owners>
+    <projectUrl>https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons</projectUrl>
+    <projectSourceUrl>https://github.com/robertohuertasm/vscode-icons</projectSourceUrl>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/manual/vscode-extensions/vscode-icons</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/932559dcf7cd36a4055adad2dc46859c595c1e4e/icons/vscode_icons.png</iconUrl>
+    <licenseUrl>https://marketplace.visualstudio.com/items/robertohuertasm.vscode-icons/license</licenseUrl>
+    <docsUrl>https://github.com/robertohuertasm/vscode-icons/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/robertohuertasm/vscode-icons/issues</bugTrackerUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Visual Studio Code Icons Extension</summary>
+    <description>Bring icons to your VS Code.</description>
+    <tags>microsoft visualstudiocode vscode icons extension foss cross-platform</tags>
+    <releaseNotes>https://github.com/vscode-icons/vscode-icons/blob/master/CHANGELOG.md</releaseNotes>
+    <dependencies>
+      <dependency id="VisualStudioCode" version="1.2.0" />
+    </dependencies>
+  </metadata>
+</package>
