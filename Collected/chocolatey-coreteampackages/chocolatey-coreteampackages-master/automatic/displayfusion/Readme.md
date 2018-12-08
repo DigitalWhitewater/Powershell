@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/5ef6055d4f21fde8a6efc8dc3dac6f5a59ad7ca4/icons/displayfusion.png" width="48" height="48"/> [displayfusion](https://chocolatey.org/packages/displayfusion)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@5ef6055d4f21fde8a6efc8dc3dac6f5a59ad7ca4/icons/displayfusion.png" width="48" height="48"/> [displayfusion](https://chocolatey.org/packages/displayfusion)
 
 
 Multiple Monitors Made Easy!

@@ -9,7 +9,7 @@
     <title>DJV Imaging</title>
     <authors>Darby Johnston</authors>
     <projectUrl>http://djv.sourceforge.net/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/efc9e0914779661ad7aa88e9dbde0333cfb81f12/icons/djv.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@efc9e0914779661ad7aa88e9dbde0333cfb81f12/icons/djv.png</iconUrl>
     <copyright>2004–2014 Darby Johnston</copyright>
     <licenseUrl>http://djv.sourceforge.net/djvLegal.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

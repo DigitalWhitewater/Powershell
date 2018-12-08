@@ -8,7 +8,7 @@
     <authors>GitHub Inc</authors>
     <owners>chocolatey</owners>
     <projectUrl>https://git-lfs.github.com/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/e4982c6e79743c6da967833471a94d7b64c11464/icons/git-lfs.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@e4982c6e79743c6da967833471a94d7b64c11464/icons/git-lfs.png</iconUrl>
     <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/git-lfs.install</packageSourceUrl>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

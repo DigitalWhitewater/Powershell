@@ -9,7 +9,7 @@
     <title>Transifex Command-Line Tool</title>
     <authors>The Transifex Team</authors>
     <projectUrl>https://www.transifex.com/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/4c2d7c7377b05a3d0a2dd35cfc89ce0c77625051/icons/transifex-client.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@4c2d7c7377b05a3d0a2dd35cfc89ce0c77625051/icons/transifex-client.png</iconUrl>
     <licenseUrl>https://github.com/transifex/transifex-client/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/transifex/transifex-client</projectSourceUrl>

@@ -9,7 +9,7 @@
     <title>Ketarin</title>
     <authors>Canneverbe Limited</authors>
     <projectUrl>https://ketarin.org/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/2963b7e22c35b0dfb637bb1d65ab74eb298bc66c/icons/ketarin.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@2963b7e22c35b0dfb637bb1d65ab74eb298bc66c/icons/ketarin.png</iconUrl>
     <copyright>©2008 - 2017 Canneverbe Limited (Impressum)</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

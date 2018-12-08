@@ -47,7 +47,7 @@ Hardware acceleration, multi-color Chroma Key, adjustable parameters settings an
         <licenseUrl>http://www.videosoftdev.com/terms-and-conditions</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <docsUrl>http://www.videosoftdev.com/how-to-use-free-video-editor</docsUrl>
-        <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/136ef0bb871e04da4d9e0e0da37902930c80c2b4/icons/freevideoeditor.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@136ef0bb871e04da4d9e0e0da37902930c80c2b4/icons/freevideoeditor.png</iconUrl>
         <dependencies>
         </dependencies>
         <releaseNotes>http://www.videosoftdev.com/free-video-editor#accordion10</releaseNotes>

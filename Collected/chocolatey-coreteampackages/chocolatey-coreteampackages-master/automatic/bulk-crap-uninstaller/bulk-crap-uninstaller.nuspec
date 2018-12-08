@@ -36,7 +36,7 @@ BCU is fully compatible with Windows Store Apps, Steam, Windows Features and has
     <copyright>Marcin Szeniak 2017</copyright>
     <licenseUrl>https://github.com/Klocman/Bulk-Crap-Uninstaller/blob/master/Licence.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/11b6ffab0e41ca0e687b1202046aa0248682e8be/icons/bulk-crap-uninstaller.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@11b6ffab0e41ca0e687b1202046aa0248682e8be/icons/bulk-crap-uninstaller.png</iconUrl>
     <releaseNotes>https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/tag/v4.0</releaseNotes>
     <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/bulk-crap-uninstaller</packageSourceUrl>
     <projectSourceUrl>https://github.com/Klocman/Bulk-Crap-Uninstaller</projectSourceUrl>
