@@ -10,7 +10,7 @@
     <licenseUrl>http://www.apache.org/licenses</licenseUrl>
     <projectUrl>http://httpd.apache.org</projectUrl>
     <docsUrl>http://httpd.apache.org/docs/2.4</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/2bdf6f7e33ec1a8126829fbbc87b83e4473b3634/icons/apache-httpd.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@2bdf6f7e33ec1a8126829fbbc87b83e4473b3634/icons/apache-httpd.png</iconUrl>
     <bugTrackerUrl>http://httpd.apache.org/bug_report.html</bugTrackerUrl>
     <releaseNotes>http://httpd.apache.org/docs/2.4/new_features_2_4.html</releaseNotes>
     <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/apache-httpd</packageSourceUrl>

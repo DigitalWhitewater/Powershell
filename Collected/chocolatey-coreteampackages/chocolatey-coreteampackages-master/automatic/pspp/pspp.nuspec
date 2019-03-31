@@ -9,7 +9,7 @@
     <title>PSPP</title>
     <authors>GNU Project</authors>
     <projectUrl>https://www.gnu.org/software/pspp/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/588d16b30aa063f71d41ce18849cb42a23367d05/icons/pspp.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@588d16b30aa063f71d41ce18849cb42a23367d05/icons/pspp.png</iconUrl>
     <copyright>2013 Free Software Foundation, Inc.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

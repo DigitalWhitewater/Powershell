@@ -9,7 +9,7 @@
     <title>CMake (Install)</title>
     <authors>Andy Cedilnik, Bill Hoffman, Brad King, Ken Martin, Alexander Neundorf</authors>
     <projectUrl>https://www.cmake.org/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/5633c4413a8b71f75f379190546a0047c0e0b12b/icons/cmake.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@5633c4413a8b71f75f379190546a0047c0e0b12b/icons/cmake.png</iconUrl>
     <copyright>© 2000 Kitware Inc</copyright>
     <licenseUrl>https://gitlab.kitware.com/cmake/cmake/blob/master/Copyright.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

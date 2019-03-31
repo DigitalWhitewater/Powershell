@@ -9,7 +9,7 @@
     <title>GOM Player (Install)</title>
     <authors>Gretech Corp</authors>
     <projectUrl>https://player.gomlab.com/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/af726b9663646bcef6e18d9e7b2d84e03e4aa878/icons/gom-player.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@af726b9663646bcef6e18d9e7b2d84e03e4aa878/icons/gom-player.png</iconUrl>
     <copyright>Copyright © Gretech Corp. All Rights Reserved.</copyright>
     <licenseUrl>http://www.gomlab.com/eula.gom?language=eng&amp;tab=1</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

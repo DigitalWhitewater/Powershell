@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/7269667975d1078bdcc82c3da8efc43482069ead/icons/clipboardfusion.png" width="48" height="48"/> [clipboardfusion](https://chocolatey.org/packages/clipboardfusion)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@7269667975d1078bdcc82c3da8efc43482069ead/icons/clipboardfusion.png" width="48" height="48"/> [clipboardfusion](https://chocolatey.org/packages/clipboardfusion)
 
 
 ClipboardFusion makes it easy to remove clipboard text formatting,

@@ -8,7 +8,7 @@
     <authors>Atlassian</authors>
     <owners>chocolatey</owners>
     <projectUrl>http://www.sourcetreeapp.com</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/d9984ffd9b6481c92e83fc1ec16f55184633adb6/icons/sourcetree.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@d9984ffd9b6481c92e83fc1ec16f55184633adb6/icons/sourcetree.png</iconUrl>
     <licenseUrl>https://www.atlassian.com/end-user-agreement/</licenseUrl>
     <docsUrl>https://confluence.atlassian.com/get-started-with-sourcetree</docsUrl>
     <bugTrackerUrl>https://support.atlassian.com/help</bugTrackerUrl>
